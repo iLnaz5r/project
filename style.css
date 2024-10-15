@@ -1,0 +1,111 @@
+body { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    background-color: #eef2f9; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    color: #191847; 
+    font-size: 12px; 
+} 
+ 
+.container { 
+    display: flex; 
+    gap: 30px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 10px; 
+    padding: 50px; 
+} 
+ 
+.nauNiki{ 
+    width: 170px; 
+    height: 150px; 
+     
+} 
+ 
+.text{ 
+    width: 250px; 
+    flex-direction: column; 
+    display: flex; 
+    gap: 10px; 
+} 
+.glav-text{ 
+    display: flex; 
+    flex-direction: column; 
+} 
+.dostavka{ 
+    font-size: 17px; 
+    padding: 5px; 
+    color: #fff; 
+    background-color: #191847; 
+    width: fit-content; 
+    border-radius: 30px; 
+    margin-bottom: 10px; 
+} 
+.main-tipo{ 
+    font-weight: 640; 
+} 
+
+.first-aksha{ 
+    text-decoration: line-through;
+} 
+.skidka{ 
+    font-size: 35px; 
+    font-weight: 800; 
+} 
+.aksha-info{ 
+    font-size: 7px; 
+    opacity: 50%; 
+} 
+.button { 
+    /* font-size: 14px; */ 
+    text-align: center; 
+    border-radius: 5px; 
+    padding: 15px; 
+    width: 100%; 
+} 
+ 
+.button_blue { 
+    background-color: #4787e9; 
+    color: #fff; 
+} 
+ 
+.button_border { 
+    position: relative; 
+    background-color: #fff; 
+    color: #000; 
+    border: 1px solid #000; 
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+.info__notice { 
+    display: flex; 
+    gap: 5px; 
+     
+} 
+
+.notice__dot { 
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background-color: #00d98b; 
+} 
+.notice__desc { 
+    font-size: 8px; 
+    font-weight: 700; 
+} 
+.add { 
+    display: flex; 
+    /* justify-content: space-between; */ 
+    gap: 10px; 
+} 
+.icon { 
+    width: 20px; 
+} 
+.add__cart{ 
+    /* width: 100%; */ 
+} 
